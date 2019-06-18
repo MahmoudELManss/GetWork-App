@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "921602513618",
+    "firebase_url": "https://getwork-app.firebaseio.com",
+    "project_id": "getwork-app",
+    "storage_bucket": "getwork-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921602513618:android:9970f7a48f9cc702",
+        "android_client_info": {
+          "package_name": "com.example.android.test1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921602513618-v3bumciueclip4vvag1b16as9qevlqi6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.test1",
+            "certificate_hash": "78530d9b7dfddbd56a74d4832a9efd57dddf43c7"
+          }
+        },
+        {
+          "client_id": "921602513618-kneu8nbektjbj37bls7omd5lb5ipr2pm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDcRLwaw-TiAcJMqv1C2DZVRhjYnPJw2I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921602513618-kneu8nbektjbj37bls7omd5lb5ipr2pm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

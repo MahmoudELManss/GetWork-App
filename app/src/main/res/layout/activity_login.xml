@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Register">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/lemonada_bold"
+            android:gravity="center_horizontal"
+            android:text="@string/registeration"
+            android:textColor="@color/colorWhite"
+            android:textSize="50sp" />
+
+        <EditText
+            android:id="@+id/SignInpassword"
+            style="@style/registerViews"
+            android:layout_marginTop="300dp"
+            android:hint="@string/password_hint"
+            android:imeOptions="actionNext"
+            android:inputType="numberPassword"
+            android:maxLines="1"
+            android:textDirection="rtl" />
+
+        <EditText
+            android:id="@+id/SignInemail"
+            style="@style/registerViews"
+            android:layout_marginTop="230dp"
+            android:maxLines="1"
+            android:hint="@string/email_hint"
+            android:imeOptions="actionNext" />
+
+
+        <Button
+            android:id="@+id/register_btn"
+            style="@style/finishRegisterButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="430dp"
+            android:layout_marginBottom="60dp"
+            android:text="تسجيل الدخول" />
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/barLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>

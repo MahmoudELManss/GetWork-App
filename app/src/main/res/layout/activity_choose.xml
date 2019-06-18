@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ChooseActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="225dp"
+                android:fontFamily="@font/lemonada_bold"
+                android:text="@string/register"
+                android:textColor="@color/colorWhite"
+                android:textSize="50sp" />
+
+
+            <Button
+                android:id="@+id/SignIn"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="350dp"
+                android:text="تسجيل الدخول"
+                android:fontFamily="@font/lemonada_semibold"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/rounded_button_white" />
+
+            <ImageButton
+                android:id="@+id/google_btn"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="430dp"
+                android:background="@drawable/google" />
+
+            <TextView
+                android:id="@+id/signUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lemonada_semibold"
+                android:textSize="16sp"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:layout_marginTop="500dp"
+                android:text="ليس لديك حساب؟ انشاء حساب"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

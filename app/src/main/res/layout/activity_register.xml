@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Register">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/lemonada_bold"
+            android:gravity="center_horizontal"
+            android:text="@string/registeration"
+            android:textColor="@color/colorWhite"
+            android:textSize="50sp" />
+
+
+        <ImageView
+            android:id="@+id/reg_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="32dp"
+            android:src="@drawable/userwhite"
+            android:layout_below="@id/tv_reg"
+            android:layout_centerHorizontal="true"/>
+
+
+        <EditText
+            android:id="@+id/Rname_et"
+            style="@style/registerViews"
+            android:layout_below="@id/reg_image"
+            android:layout_marginTop="16dp"
+            android:hint="@string/name_hint"
+            android:imeOptions="actionNext"
+            android:maxLines="1"
+            android:nextFocusDown="@id/Rpassword_et"
+            android:textDirection="rtl" />
+
+        <EditText
+            android:id="@+id/Rpassword_et"
+            style="@style/registerViews"
+            android:layout_marginTop="16dp"
+            android:hint="@string/password_hint"
+            android:layout_below="@id/Remail_et"
+            android:imeOptions="actionNext"
+            android:maxLines="1"
+            android:inputType="numberPassword"
+            android:textDirection="rtl" />
+
+        <EditText
+            android:id="@+id/Remail_et"
+            style="@style/registerViews"
+            android:layout_below="@id/Rname_et"
+            android:maxLines="1"
+            android:layout_marginTop="16dp"
+            android:hint="@string/email_hint"
+            android:imeOptions="actionNext" />
+
+        <EditText
+            android:id="@+id/Rphone_et"
+            style="@style/registerViews"
+            android:layout_marginTop="16dp"
+            android:maxLines="1"
+            android:layout_below="@id/Rpassword_et"
+            android:hint="@string/phone_hint"
+            android:imeOptions="actionDone"
+            android:inputType="number" />
+
+        <Spinner
+            android:id="@+id/Raddress_sp"
+            style="@style/Rspinner"
+            android:layout_below="@id/Rphone_et"
+            android:layout_marginTop="16dp"
+            tools:listitem="@tools:sample/first_names" />
+
+        <Button
+            android:id="@+id/register_btn"
+            style="@style/finishRegisterButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Raddress_sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/finishReg" />
+
+        <ProgressBar
+            android:id="@+id/barSignUp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+</ScrollView>

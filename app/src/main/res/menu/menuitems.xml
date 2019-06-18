@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/profile"
+        android:title="حسابى"/>
+
+    <item android:id="@+id/ads"
+        android:title="اعلاناتى"/>
+    <item android:id="@+id/settings"
+        android:title="الاعدادات"/>
+    <item android:id="@+id/exit"
+        android:title="تسجيل خروج"/>
+</menu>

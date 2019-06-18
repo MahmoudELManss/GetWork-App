@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddActivity"
+    android:background="#FFF9F5">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:verticalScrollbarPosition="defaultPosition">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/leftarrow"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/Aname_et"
+                style="@style/AddViews"
+                android:maxLines="1"
+                android:hint="الاسم"/>
+
+            <EditText
+                android:id="@+id/Aphone_et"
+                style="@style/AddViews"
+                android:inputType="number"
+                android:maxLines="1"
+                android:hint="رقم الهاتف"/>
+
+            <Spinner
+                android:id="@+id/Acatg_sp"
+                style="@style/Aspinner"
+                tools:listitem="@tools:sample/first_names"/>
+
+            <Spinner
+                android:id="@+id/Aaddress_sp"
+                style="@style/Aspinner"
+                tools:listitem="@tools:sample/first_names" />
+
+            <EditText
+                android:id="@+id/Adescription_et"
+                style="@style/AddViews" />
+
+            <Button
+                android:id="@+id/addWorkImages_btn"
+                style="@style/AddButtons"
+                android:text="@string/attachWorkImages"
+                android:layout_gravity="center_horizontal"/>
+
+            <Button
+                android:id="@+id/addwork_btn"
+                style="@style/AddButtons"
+                android:text="@string/add"
+                android:layout_marginLeft="16dp"
+                android:layout_gravity="left"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

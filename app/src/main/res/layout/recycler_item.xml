@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="8dp"
+        android:elevation="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/workImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/user"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/name_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="محمود خيرى حسنى"
+                android:textSize="16sp"
+                android:fontFamily="@font/lemonada_light"
+                android:layout_toLeftOf="@id/workImage"
+                android:layout_marginRight="8dp"/>
+
+            <TextView
+                android:id="@+id/catg_tv"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name_tv"
+                android:layout_marginRight="16dp"
+                android:layout_toLeftOf="@id/workImage"
+                android:fontFamily="@font/lemonada_light"
+                android:text="نجار :("
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/state_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="اى حتة"
+                android:textSize="10sp"
+                android:fontFamily="@font/lemonada_light"
+                android:layout_below="@id/name_tv"
+                android:layout_toLeftOf="@id/catg_tv"
+                android:layout_marginRight="16dp"/>
+
+            <TextView
+                android:id="@+id/desc_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="البالا لاتينتلاملن بل يسنم اسيب ىلسيبا تاشننا تيبىسانتسيىا سبيتلخهسياتهخلا ..."
+                android:textSize="13sp"
+                android:fontFamily="@font/lemonada_light"
+                android:layout_toLeftOf="@id/workImage"
+                android:layout_below="@id/catg_tv"
+                android:layout_marginRight="16dp"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

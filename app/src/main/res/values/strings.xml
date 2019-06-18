@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">شغلنى</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="register">سجل الان</string>
+    <string name="first_page">اعرض نفسك و اجعل من اعمالك طريقاَ لك </string>
+    <string name="second_page">ابحث عن الاشخاص   فى نفس المنطقة </string>
+    <string name="third_page">التواصل المباشر مع اصحاب الاعمال</string>
+    <string name="main_word">شغلنى</string>
+    <string name="registeration">التسجيل</string>
+    <string name="name_hint">الاسم</string>
+    <string name="password_hint">كلمة السر</string>
+    <string name="phone_hint">رقم الهاتف</string>
+    <string name="finishReg">تسجيل</string>
+    <string name="email_hint">البريد الالكترونى</string>
+    <string name="add">اضف</string>
+    <string name="attachWorkImages">ارفق صور</string>
+    <string name="search">اختر نوع العمل و المكان</string>
+
+    <string-array name="states">
+        <item>القاهرة</item>
+        <item>الجيزة</item>
+        <item>القليوبية</item>
+        <item>بنها</item>
+        <item>مصر الجديدة</item>
+        <item>المعادى</item>
+        <item>المقطم</item>
+        <item>طنطا</item>
+        <item>الشمالية</item>
+        <item>الجنوبية</item>
+        <item>الشرقية</item>
+        <item>الغربية</item>
+    </string-array>
+
+    <string-array name="categories">
+        <item>نجار</item>
+        <item>نقاش</item>
+        <item>سباك</item>
+        <item>مقاول</item>
+        <item>مصمم ازياء</item>
+        <item>طباخ</item>
+        <item>كهربائ</item>
+        <item>مبيض محاره</item>
+        <item>حداد</item>
+        <item>ميكانيكى</item>
+        <item>سكرتير</item>
+
+    </string-array>
+</resources>
